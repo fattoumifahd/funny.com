@@ -1,0 +1,147 @@
+.navbar>.container {
+    display: block;
+}
+
+.nav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-expand .navbar-nav {
+    justify-content: space-between;
+}
+
+.navitems {
+    display: flex;
+}
+
+.table {
+    width: 370px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+table tbody {
+    background-color: #a9a9a985;
+}
+
+th,
+td {
+    margin: 10px;
+    padding: 5px;
+}
+
+.parent {
+    margin: 20px 0 20px 20px;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(178deg, #cfcacac2, transparent);
+    box-shadow: -20px -3px 78px 5px;
+    padding-right: 8px;
+}
+
+.h {
+    padding-left: 10px;
+}
+
+.logo {
+    border: 1px solid;
+    padding: 3px;
+    background-color: #a9a9a985;
+    margin-bottom: 5px;
+    display: flex;
+    width: 124px;
+    flex-direction: column;
+    right: 500px;
+    float: right;
+}
+
+
+/* bootstrap truce  */
+
+.table>:not(:first-child) {
+    border-top: none;
+    /* bootstrap truce  */
+}
+
+.logo h6 {
+    font-size: 11px;
+    text-align: center;
+    padding: 4px;
+}
+
+.undertable {
+    margin-top: 10px;
+    text-align: justify;
+    margin-left: 8px;
+}
+
+.undertable :first-child,
+.undertable:nth-child(2) {
+    text-align: center;
+}
+
+.undertable p {
+    text-align: justify;
+}
+
+.herman {
+    text-align: justify;
+}
+
+.chifrparent {
+    display: flex;
+    flex-direction: row;
+}
+
+.chifr h6 {
+    font-size: x-small;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.chifr2 h6 {
+    font-size: x-small;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0% auto;
+}
+
+.last h5 {
+    font-size: x-small;
+}
+
+.last img {
+    width: 228px;
+}
+
+.copy {
+    color: rgb(34, 30, 30);
+    text-decoration: underline;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.copy span {
+    font-size: smaller;
+}
+
+.copy:hover,
+span:hover {
+    color: white;
+    background-color: black;
+}

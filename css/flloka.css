@@ -1,0 +1,81 @@
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar>.container {
+    display: block;
+}
+
+#first {
+    margin-right: 20px;
+}
+
+body {
+    background: linear-gradient(359deg, black, gray);
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.title {
+    /* padding: 10px auto; */
+    margin: 10px 25%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 7.6mm;
+    padding: 6px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.zodic .card {
+    flex-direction: row;
+    width: 559px;
+    align-items: center;
+    margin: 20px auto;
+    background-color: darkgray;
+}
+
+.ted .card {
+    margin: 20px auto;
+    align-items: center;
+    width: 560px;
+    flex-direction: row;
+    background-color: darkgray;
+}
+
+.richard .card {
+    flex-direction: row;
+    margin: 20px auto;
+    align-items: center;
+    width: 559px;
+    background-color: darkgray;
+}
+
+.last {
+    color: gray;
+    text-decoration: underline;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.last span {
+    font-size: smaller;
+}
